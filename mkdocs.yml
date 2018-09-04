@@ -1,5 +1,5 @@
 site_name: DynamicGui Documentation
-nav:
+pages:
 - Getting Started: index.md
 - Functions: functions.md
 - Bug Tracker: https://www.github.com/clubobsidian/dynamicgui/issues
