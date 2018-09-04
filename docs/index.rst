@@ -19,7 +19,14 @@ To write guis for DynamicGui you will need to know one the listed languages.
    
    example/index
    complex/index
+
+.. toctree::
+   :maxdepth 2
+   :caption: Developer Documentation
    
+   functionapi/index
+   guiapi/index
+
 .. toctree::
    :maxdepth 2
    :caption: Project
