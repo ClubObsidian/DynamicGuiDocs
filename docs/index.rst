@@ -26,6 +26,7 @@ To write guis for DynamicGui you will need to know one the listed languages.
    
    functionapi/index
    guiapi/index
+   server/index
 
 .. toctree::
    :maxdepth 2
