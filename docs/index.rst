@@ -7,6 +7,6 @@ To write guis for DynamicGui you will need to know one the listed languages.
 
 .. toctree::
    :maxdepth 2
-   :caption Gui Concepts
+   :caption: Gui Concepts
    
    functions/index
