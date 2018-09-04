@@ -18,3 +18,11 @@ To write guis for DynamicGui you will need to know one the listed languages.
    :caption: Making a gui
    
    example/index
+   complex/index
+   
+.. toctree::
+   :maxdepth 2
+   :caption: Project
+   
+   Github <https://github.com/ClubObsidian/DynamicGui>
+   Bugtracker <https://github.com/ClubObsidian/DynamicGui/issues>
