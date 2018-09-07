@@ -69,6 +69,7 @@ Usage::
 
 Makes a player open a gui named "test".
 
+
 =============
 No Permission
 =============
@@ -76,9 +77,10 @@ No Permission
 Checks if a player does not have a permission.
 
 Usage::
+
    nopermission: some.permission
 
-Checks to see if the player does not have the permission "some.permission".
+Checks if the player does not have the permission "some.permission".
 
 
 ==============
@@ -93,21 +95,37 @@ Usage::
 
 Makes the player pay 1000 if they have the balance avaliable.
 
+
 ==========
 Permission
 ==========
 
+Checks if the player has a permission.
+
+Usage::
+   
+   permission: some.permission
+
+Checks if the player has the permission "some.permission".
 
 
 ==============
 Player Message
 ==============
 
+Sends the player a message.
+
+Usage::
+   
+   pmsg: Hello!
+   
+Sends the player the message "Hello!".
 
 
 ===========
 Remove Slot
 ===========
+
 
 
 
