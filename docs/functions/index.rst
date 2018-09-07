@@ -11,6 +11,7 @@ Broadcast
 =========
 
 The broadcast function is used to send a message to all players on the server.
+
 Usage::
    broadcast: This is a test message!
 
@@ -19,7 +20,12 @@ Usage::
 Check Level
 ===========
 
+Check a player's exp level.
 
+Usage::
+   checklevel: 1000 
+   
+The function would require the player to have level 1000.
 
 ==========================
 Execute Command As Console
