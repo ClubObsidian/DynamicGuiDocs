@@ -126,30 +126,47 @@ Sends the player the message "Hello!".
 Remove Slot
 ===========
 
+Removes the current slot.
 
+Usage::
 
-
-===========
-Remove Slot
-===========
-
+   removeslot: this
+ 
+Removes the slot from which the function is called.
 
 
 =====================
 Send player to server
 =====================
 
+Sends the player to a server.
+
+Usage::
+
+   send: testserver
+   
+Sends the player to the server "testserver".
 
 
 ================
 Set data on slot
 ================
 
+Set data on the current slot, can be used in 1.12 and below.
+
+Usage::
+
+   setdata: 1
+   
+Sets the data value of the current slot to 1.
 
 
 ====================
 Set enchants on slot
 ====================
+
+Sets enchants on the current slot.
+
 
 
 
