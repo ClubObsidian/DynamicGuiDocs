@@ -218,6 +218,7 @@ Sound
 =====
 
 Plays a sound to the client.
+
 `Look here for sound enums for 1.9+. <https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html>`_
 
 `Look here for sound enums for 1.8. <https://jd.bukkit.org/org/bukkit/Sound.html>`_
