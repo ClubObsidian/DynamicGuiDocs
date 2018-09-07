@@ -219,6 +219,7 @@ Sound
 
 Plays a sound to the client.
 `Look here for sound enums for 1.9+. <https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html>`_
+
 `Look here for sound enums for 1.8. <https://jd.bukkit.org/org/bukkit/Sound.html>`_
 
 Usage::
@@ -233,8 +234,9 @@ Statistic
 =========
 
 Get a player's statistics.
-'Look here for statistics. <https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html>'_
+
+`Look here for statistics. <https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html>`_
 
 Usage::
 
-   statistic::
+   statistic:
