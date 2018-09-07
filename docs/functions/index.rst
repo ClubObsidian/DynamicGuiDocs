@@ -149,10 +149,10 @@ Sends the player to the server "testserver".
 
 
 ================
-Set data on slot
+Set data for slot
 ================
 
-Set data on the current slot, can be used in 1.12 and below.
+Set data for the current slot, can be used in 1.12 and below.
 
 Usage::
 
@@ -162,40 +162,79 @@ Sets the data value of the current slot to 1.
 
 
 ====================
-Set enchants on slot
+Set enchants for slot
 ====================
 
-Sets enchants on the current slot.
+Sets enchants for the current slot.
+Check here for the `enchantment enums <https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html>`_
 
+Usage::
 
+   setenchants: DURABILITY,1
+
+Sets the slot to have level 1 durability.
+
+================
+Set lore for slot
+================
+
+Set lore for the current slot.
+
+Usage::
+
+   setlore: test lore
+   
+Sets the lore for the slot to "test lore".
 
 
 ================
-Set lore on slot
+Set name for slot
 ================
 
+Set name for the current slot.
+
+Usage::
+   
+   setname: name
+
+Sets the name for the slot to "name".
 
 
 ================
-Set name on slot
+Set type for slot
 ================
 
+Set type for the current slot.
 
+Usage::
 
-================
-Set type on slot
-================
+  settype: STONE
 
+Sets the type for the current slot to "STONE".
 
 
 =====
 Sound
 =====
 
+Plays a sound to the client.
+`Look here for sound enums for 1.9+. <https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html>`_
+`Look here for sound enums for 1.8. <https://jd.bukkit.org/org/bukkit/Sound.html>`_
 
+Usage::
+
+   sound: LAVA,1.0,0.5
+   
+Sends a lava sound to the player with 1.0 volume and 0.5 pitch.
+   
 
 =========
 Statistic
 =========
 
+Get a player's statistics.
+'Look here for statistics. <https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html>'_
 
+Usage::
+
+   statistic::
