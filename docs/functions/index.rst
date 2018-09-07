@@ -238,5 +238,3 @@ Get a player's statistics.
 `Look here for statistics. <https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html>`_
 
 Usage::
-
-   statistic:
