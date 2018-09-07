@@ -1,8 +1,89 @@
 Guis
 =====
 
-Guis like slots can have functions.
+Guis like slots can have functions and failfunctions.
 Below are some examples of guis
 
 .. code-block:: yaml
 
+   gui-title: "&c&lTest GUI"
+   rows: 5
+   mode: "set"
+   close: false #Whether slots by default will close or not
+   locations: 
+   - "0,64,0,world"
+   npc-ids:
+   - '0'
+   alias:
+   - "test"
+
+   functions:
+   - "permission: gui.test"
+   - "sound: LAVA,1.0,1.0"
+
+   permission-failfunctions:
+   - "pmsg: &4You do not have access to this gui!"
+
+   '0':
+     icon: "EXP_BOTTLE"
+     name: "&6Level test"
+     lore:
+     - "&cYou have to have at least level 1337 for this to pass"
+     functions:
+     - "checklevel: 1337"
+     - "broadcast: &cLevel check has passed, you have at least level 1337"
+   '1':
+     icon: "BEDROCK"
+     name: "&fConsole command test"
+     functions:
+     - "executec: say Broadcasting from console, this test passed"
+   '2':
+     icon: "PAPER"
+     name: "&fGui test"
+     functions:
+     - "gui: blank"
+   '3':
+     icon: "BARRIER"
+     name: "&cClose Test"
+     close: true
+   '4':
+     icon: "WORKBENCH"
+     name: "&6Broadcast Test!"
+     lore:
+     - "Used for testing message broadcasting"
+     functions:
+     - "broadcast: &cBroadcast test is working!"
+   '5':
+     icon: "STONE"
+     name: "&4Set data test"
+     functions:
+     - "setdata: 1"
+   '6':
+     icon: "ENCHANTMENT_TABLE"
+     name: "&bEnchanting test"
+     functions:
+     - "setenchants: DURABILITY,1"
+   '7':
+     icon: "REDSTONE"
+     name: "&cName test"
+     functions:
+     - "setname: &fName test passed"
+     - "broadcast: Name test passed"
+   '9':
+     icon: "SAND"
+     name: "&aRemove test"
+     functions:
+     - "removeslot: this"
+     - "broadcast: &bRemove passed"
+   '10':
+     icon: "DIRT"
+     name: "&aType test"
+     functions:
+     - "settype: GRASS"
+     - "broadcast: &aType test passed"
+   '11':
+     icon: "DIAMOND_BLOCK"
+     name: "&2Pay test"
+     functions:
+     - "pay: 100"
+     - "broadcast: &aPay test passed"
