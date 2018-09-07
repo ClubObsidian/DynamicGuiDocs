@@ -10,6 +10,9 @@ If you are interested in making functions take a look at the `developer docs <..
 Broadcast
 =========
 
+The broadcast function is used to send a message to all players on the server.
+Usage::
+   broadcast: This is a test message!
 
 
 ===========
