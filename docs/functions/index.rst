@@ -186,6 +186,13 @@ Usage::
    
 Sets the lore for the slot to "test lore".
 
+Also supports multi-line lores.
+
+Usage::
+
+   setlore: test;lore
+   
+Sets the lore for the slot to "test" on the first line and "lore" on the second.
 
 ================
 Set name for slot
@@ -217,7 +224,7 @@ Sets the type for the current slot to "STONE".
 Sound
 =====
 
-Plays a sound to the client.
+Plays a sound.
 
 `Look here for sound enums for 1.9+. <https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html>`_
 
@@ -239,3 +246,4 @@ Get a player's statistics.
 `Look here for statistics. <https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html>`_
 
 Usage::
+
