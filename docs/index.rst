@@ -10,7 +10,7 @@ To write guis for DynamicGui you will need to know one the listed languages.
    :caption: Gui Concepts
    
    functions/index
-   slots/index
+   slot/index
    gui/index
    
 .. toctree::
