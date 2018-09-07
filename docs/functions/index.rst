@@ -7,9 +7,9 @@ Below are the built-in functions for DynamicGui, addons may add more.
 If you are interested in making functions take a look at the `developer docs <../functionapi>`_.
 
 * :doc:`checklevel <checklevel>`
-* `executec <executeconsole>`_
-* `executep <executeplayer>`_
-* `gui <gui>`_
+* :doc:`executec <executeconsole>`
+* :doc:`executep <executeplayer>`
+* :doc:`gui <gui>`
 * nopermission
 * pay
 * permission
