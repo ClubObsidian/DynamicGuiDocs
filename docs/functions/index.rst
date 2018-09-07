@@ -15,7 +15,7 @@ If you are interested in making functions take a look at the `developer docs <..
 * :doc:`permission <permission>`
 * :doc:`pmsg <pmsg>`
 * :doc:`removeslot <removeslot>`
-* :doc:`send <slot>`
+* :doc:`send <send>`
 * :doc:`broadcast <broadcast>`
 * :doc:`setdata <setdata>`
 * :doc:`setenchants <setenchants>`
