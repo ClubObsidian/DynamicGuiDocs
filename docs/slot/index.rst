@@ -6,7 +6,7 @@ Below is an example of a basic slot.
 
 .. code-block:: yaml
 
-   '0':
-     icon: "DIRT"
+   '0': #Index to be placed at, starting at 0
+     icon: "DIRT" #Icon for the slot
 
 Test
