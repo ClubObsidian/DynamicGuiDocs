@@ -15,6 +15,7 @@ The broadcast function is used to send a message to all players on the server.
 Usage::
    broadcast: This is a test message!
 
+Broadcasts the message "This is a test message!" to all players.
 
 ===========
 Check Level
@@ -27,34 +28,64 @@ Usage::
    
 The function would require the player to have level 1000.
 
+
 ==========================
 Execute Command As Console
 ==========================
 
+Executes a command for the player as console.
+
+Usage::
+   executec: say Hello from the server!
+
+Executes the say command from console.
 
 
 ==========================
 Execute Command As Player
 ==========================
 
+Makes a player execute a command.
+
+Usage::
+   executep: spawn
+
+Makes a player execute the spawn command.
 
 
 ========
 Gui open
 ========
 
+Makes a player open a gui.
 
+Usage::
+   gui: test
+
+Makes a player open a gui named "test".
 
 =============
 No Permission
 =============
+
+Checks if a player does not have a permission.
+
+Usage::
+   nopermission: some.permission
+
+Checks to see if the player does not have the permission "some.permission".
 
 
 ==============
 Pay with money
 ==============
 
+Allows a player to pay money.
 
+Usage::
+   pay: 1000
+
+Makes the player pay 1000 if they have the balance avaliable.
 
 ==========
 Permission
