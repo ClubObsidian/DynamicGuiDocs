@@ -13,6 +13,7 @@ Broadcast
 The broadcast function is used to send a message to all players on the server.
 
 Usage::
+
    broadcast: This is a test message!
 
 Broadcasts the message "This is a test message!" to all players.
