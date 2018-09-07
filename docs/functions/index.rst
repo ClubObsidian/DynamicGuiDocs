@@ -6,7 +6,7 @@ With functions you can customize `guis <../gui>`_ and `slots <../slot>`_.
 Below are the built-in functions for DynamicGui, addons may add more.
 If you are interested in making functions take a look at the `developer docs <../functionapi>`_.
 
-* `checklevel :doc:<checklevel>`
+* :doc:`checklevel <checklevel>`
 * `executec <executeconsole>`_
 * `executep <executeplayer>`_
 * `gui <gui>`_
