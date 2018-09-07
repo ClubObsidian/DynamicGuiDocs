@@ -10,23 +10,114 @@ If you are interested in making functions take a look at the `developer docs <..
 Broadcast
 =========
 
+
+
 ===========
 Check Level
 ===========
 
-* :doc:`executec <executeconsole>`
-* :doc:`executep <executeplayer>`
-* :doc:`gui <gui>`
-* :doc:`nopermission <nopermission>`
-* :doc:`pay <nopermission>`
-* :doc:`permission <permission>`
-* :doc:`pmsg <pmsg>`
-* :doc:`removeslot <removeslot>`
-* :doc:`send <send>`
-* :doc:`setdata <setdata>`
-* :doc:`setenchants <setenchants>`
-* :doc:`setlore <setlore>`
-* :doc:`setname <setname>`
-* :doc:`settype <settype>`
+
+
+==========================
+Execute Command As Console
+==========================
+
+
+
+==========================
+Execute Command As Player
+==========================
+
+
+
+========
+Gui open
+========
+
+
+
+=============
+No Permission
+=============
+
+
+==============
+Pay with money
+==============
+
+
+
+==========
+Permission
+==========
+
+
+
+==============
+Player Message
+==============
+
+
+
+===========
+Remove Slot
+===========
+
+
+
+===========
+Remove Slot
+===========
+
+
+
+=====================
+Send player to server
+=====================
+
+
+
+================
+Set data on slot
+================
+
+
+
+====================
+Set enchants on slot
+====================
+
+
+
+================
+Set lore on slot
+================
+
+
+
+================
+Set name on slot
+================
+
+
+
+================
+Set type on slot
+================
+
+
+
+=====
+Sound
+=====
+
+
+
+=========
+Statistic
+=========
+
+
+
 * :doc:`sound <sound>`
 * :doc:`statistic <statistic>`
