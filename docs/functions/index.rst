@@ -10,17 +10,17 @@ If you are interested in making functions take a look at the `developer docs <..
 * :doc:`executec <executeconsole>`
 * :doc:`executep <executeplayer>`
 * :doc:`gui <gui>`
-* nopermission
-* pay
-* permission
-* pmsg
-* removeslot
-* send
-* broadcast
-* setdata
-* setenchants
-* setlore
-* setname
-* settype
-* sound
-* statistic
+* :doc:`nopermission <nopermission>`
+* :doc:`pay <nopermission>`
+* :doc:`permission <permission>`
+* :doc:`pmsg <pmsg>`
+* :doc:`removeslot <removeslot>`
+* :doc:`send <slot>`
+* :doc:`broadcast <broadcast>`
+* :doc:`setdata <setdata>`
+* :doc:`setenchants <setenchants>`
+* :doc:`setlore <setlore>`
+* :doc:`setname <setname>`
+* :doc:`settype <settype>`
+* :doc:`sound <sound>`
+* :doc:`statistic <statistic>`
