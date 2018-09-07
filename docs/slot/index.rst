@@ -4,7 +4,7 @@ Slots
 Slots have a number of components that can be assigned to them.
 Below is an example of a basic slot.
 
-.. codeblock:: yaml
+.. codeblock::
    
    '0':
      icon: "DIRT"
