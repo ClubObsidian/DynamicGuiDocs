@@ -16,6 +16,7 @@ More complex example of a slot.
 .. code-block:: yaml
 
    '0': #Index to be placed at, starting at 0
+     amount: 2 #This will place 2 items at the slot 0 
      icon: "DIRT" #Icon for the slot
      name: "&cDirt but red" #Name supports color codes
      lore: #Lore for the item
