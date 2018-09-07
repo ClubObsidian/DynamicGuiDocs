@@ -118,6 +118,3 @@ Statistic
 =========
 
 
-
-* :doc:`sound <sound>`
-* :doc:`statistic <statistic>`
