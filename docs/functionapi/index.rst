@@ -3,7 +3,7 @@ Function Api
 
 The function manager is what is responsible for the registration of functions. Below you will find out how to write functions and add the functions to the function manager so they can be used in guis.
 
-As a note any built-in functions should be platform independent, if you want more information on this see the 'implementing a server type documentation. <../server>'_ This does not apply to addon plugins.
+As a note any built-in functions should be platform independent, if you want more information on this see the `implementing a server type documentation. <../server>`_ This does not apply to addon plugins.
 
 =================
 Making a function
