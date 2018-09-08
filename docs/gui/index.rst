@@ -11,18 +11,22 @@ Below are some examples of guis
    mode: "set"
    close: false #Whether slots by default will close or not
    locations: 
-   - "0,64,0,world"
+   - "0,64,0,world" #Locations the gui can be clicked on in the world
    npc-ids:
-   - '0'
+   - '0' #Npc ids that the gui will be registered to
    alias:
-   - "test"
+   - "test" #Command aliases
 
    functions:
-   - "permission: gui.test"
-   - "sound: LAVA,1.0,1.0"
+   - "permission: gui.test" #Permission needed to open the gui
+   - "sound: LAVA,1.0,1.0" #Sound will be played if player has the permission
 
    permission-failfunctions:
-   - "pmsg: &4You do not have access to this gui!"
+   - "pmsg: &4You do not have access to this gui!" 
+   #Player will be messaged if they do not have access
+   #Any function can be used in this section
+   #If any function fails in this area the functions will not continue
+   #past the failed function
 
    '0':
      icon: "EXP_BOTTLE"
