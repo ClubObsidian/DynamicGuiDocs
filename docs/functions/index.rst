@@ -186,7 +186,7 @@ Usage::
    
 Sets the lore for the slot to "test lore".
 
-Also supports multi-line lores.
+Also supports multi-line lore.
 
 Usage::
 
@@ -247,3 +247,6 @@ Get a player's statistics.
 
 Usage::
 
+   statistic: MINE_BLOCK,DIRT,10
+   
+The player has mined at least 10 dirt blocks.
