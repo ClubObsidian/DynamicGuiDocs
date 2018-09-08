@@ -20,6 +20,7 @@ More complex example of a slot.
      name: "&cDirt but red" #Name supports color codes
      lore: #Lore for the item
      - "&cThere is dirt in this slot"
+     - "&fLore can also have multiple lines!"
      functions: #Functions to run on click
      - "broadcast: &fThis is a simple test"
 	 
