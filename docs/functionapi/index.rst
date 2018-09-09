@@ -5,6 +5,7 @@ The function manager is what is responsible for the registration of functions. B
 
 As a note any built-in functions should be platform independent, if you want more information on this see the `implementing a server type documentation. <../server>`_ This does not apply to addon plugins.
 
+
 =================
 Making a function
 =================
@@ -13,22 +14,26 @@ All functions have to extend the Function class. The function class allows you t
 
 Below is an example of a simple function that... todo
 
+
 ===============
 Function owners
 ===============
 
 Most functions do not need to worry about the owner of the function. However there are certain operations where it would be useful to know the owner of the function. In DynamicGui function owners are split up slots and guis. Slots refer to the individual slots in a gui and a gui is the whole gui including the slots that make up the gui.
 
+
 ===========================
 Making a slot only function
 ===========================
 
+Slot functions should only be slot only if they need to interact with only a slot.
 
 
 ==========================
 Making a gui only function
 ==========================
 
+Gui functions can be useful if you want to manipulate parts of the gui when the gui is created and opened to the player.
 
 
 =================
