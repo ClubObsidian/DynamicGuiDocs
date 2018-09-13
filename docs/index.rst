@@ -19,6 +19,7 @@ To write guis for DynamicGui you will need to know one the listed languages.
    
    example/index
    complex/index
+   remote/index
 
 .. toctree::
    :maxdepth 2
