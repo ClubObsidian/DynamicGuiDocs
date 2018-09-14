@@ -3,7 +3,7 @@ Guis
 
 Guis like slots can have functions and failfunctions.
 Below is an example of a gui.
-If you do not know how any function works take a look at the `function documentation. <../functions>'_
+If you do not know how any function works take a look at the `function documentation. <../functions>`_
 
 .. code-block:: yaml
 
