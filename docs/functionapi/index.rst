@@ -26,14 +26,14 @@ Most functions do not need to worry about the owner of the function. However the
 Making a slot only function
 ===========================
 
-Slot functions should only be slot only if they need to interact with only a slot.
+Slot functions are slot only and are to be used if a functions can only interact with a slot.
 
 
 ==========================
 Making a gui only function
 ==========================
 
-Gui functions can be useful if you want to manipulate parts of the gui when the gui is created and opened to the player.
+Gui functions are gui only and can be used if a function needs to manipulate the gui on creation and on opening.
 
 
 =================
