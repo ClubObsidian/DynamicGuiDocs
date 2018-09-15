@@ -172,7 +172,7 @@ Usage::
 
    setenchants: DURABILITY,1
 
-Sets the slot to have level 1 durability.
+Sets the current slot to have level 1 durability.
 
 ================
 Set lore for slot
@@ -184,7 +184,7 @@ Usage::
 
    setlore: test lore
    
-Sets the lore for the slot to "test lore".
+Sets the lore for the current slot to "test lore".
 
 Also supports multi-line lore.
 
@@ -192,7 +192,7 @@ Usage::
 
    setlore: test;lore
    
-Sets the lore for the slot to "test" on the first line and "lore" on the second.
+Sets the lore for the current slot to "test" on the first line and "lore" on the second.
 
 ================
 Set name for slot
@@ -204,7 +204,7 @@ Usage::
    
    setname: name
 
-Sets the name for the slot to "name".
+Sets the name for the current slot to "name".
 
 
 ================
@@ -249,4 +249,4 @@ Usage::
 
    statistic: MINE_BLOCK,DIRT,10
    
-The player has mined at least 10 dirt blocks.
+Checks if the player has mined at least 10 dirt blocks.
