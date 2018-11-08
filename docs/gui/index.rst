@@ -9,8 +9,9 @@ If you do not know how any function works take a look at the `function documenta
 
    gui-title: "&c&lTest GUI"
    rows: 5
-   mode: "set"
-   close: false #Whether slots by default will close or not
+   mode: "set" #Set will set items at the index, starting at 1
+               #Where as 'add' will add items into the gui instead of setting at a specific index
+   close: false #Whether or not slots will close the gui, false will not close the gui
    locations: 
    - "0,64,0,world" #Locations the gui can be clicked on in the world
    npc-ids:
@@ -35,7 +36,7 @@ If you do not know how any function works take a look at the `function documenta
      lore:
      - "&cYou have to have at least level 1337 for this to pass"
      functions:
-     - "checklevel: 1337"
+     - "checklevel: 1337" #Checks to see if the user has 1337 exp
      - "broadcast: &cLevel check has passed, you have at least level 1337"
    '1':
      icon: "BEDROCK"
@@ -50,7 +51,7 @@ If you do not know how any function works take a look at the `function documenta
    '3':
      icon: "BARRIER"
      name: "&cClose Test"
-     close: true
+     close: true #Since close is set to true, this will override the gui close setting
    '4':
      icon: "WORKBENCH"
      name: "&6Broadcast Test!"
