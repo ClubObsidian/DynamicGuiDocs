@@ -58,38 +58,46 @@ If you do not know how any function works take a look at the `function documenta
      lore:
      - "Used for testing message broadcasting"
      functions:
-     - "broadcast: &cBroadcast test is working!"
+     - "broadcast: &cBroadcast test is working!" #Broadcasts when clicked
    '5':
      icon: "STONE"
      name: "&4Set data test"
      functions:
-     - "setdata: 1"
+     - "setdata: 1" #Sets the data to 1 when clicked
    '6':
      icon: "ENCHANTMENT_TABLE"
      name: "&bEnchanting test"
      functions:
-     - "setenchants: DURABILITY,1"
+     - "setenchants: DURABILITY,1" #Adds durability 1 to the item when clicked
    '7':
      icon: "REDSTONE"
      name: "&cName test"
      functions:
-     - "setname: &fName test passed"
-     - "broadcast: Name test passed"
+     - "setname: &fName test passed" #Sets the name of the item when clicked
+     - "broadcast: Name test passed" #Broadcasts if the name was set
    '9':
      icon: "SAND"
      name: "&aRemove test"
      functions:
-     - "removeslot: this"
-     - "broadcast: &bRemove passed"
+     - "removeslot: this" #Removes the item when clicked
+     - "broadcast: &bRemove passed" #Broadcasts if the removal was successful
    '10':
      icon: "DIRT"
      name: "&aType test"
      functions:
-     - "settype: GRASS"
-     - "broadcast: &aType test passed"
+     - "settype: GRASS" #Sets the item type to grass
+     - "broadcast: &aType test passed" #Broadcasts if the item type was updated
    '11':
      icon: "DIAMOND_BLOCK"
      name: "&2Pay test"
      functions:
      - "pay: 100"
      - "broadcast: &aPay test passed"
+   '13':
+     icon: "SAND"
+     name: "&aRemove load test"
+     load-functions: #Fuctions that happen on load, before the gui opens
+     - "removeslot: this" #Removes this slot
+     - "broadcast: &bRemove load test passed" #Broadcasts if successfully removed
+     functions:
+     - "broadcast: Why is this broadcasting, you got removed" #Function that can be ran if the slot does not get removed
