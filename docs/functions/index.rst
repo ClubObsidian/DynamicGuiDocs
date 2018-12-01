@@ -91,7 +91,7 @@ Allows a player to pay money.
 
 Usage::
 
-   pay: 1000
+   moneywithdraw: 1000
 
 Makes the player pay 1000 if they have the balance avaliable.
 

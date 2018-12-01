@@ -89,9 +89,9 @@ If you do not know how any function works take a look at the `function documenta
      - "broadcast: &aType test passed" #Broadcasts if the item type was updated
    '11':
      icon: "DIAMOND_BLOCK"
-     name: "&2Pay test"
+     name: "&2Money Pay test"
      functions:
-     - "pay: 100"
+     - "moneywithdraw: 100"
      - "broadcast: &aPay test passed"
    '13':
      icon: "SAND"
