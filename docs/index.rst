@@ -2,7 +2,7 @@ DynamicGui Documentation
 ========================
 
 
-DynamicGui currently support `yaml <https://learnxinyminutes.com/docs/yaml/>`_, `json <https://learnxinyminutes.com/docs/json/>`_ and `hocon <https://github.com/lightbend/config#using-hocon-the-json-superset>`_ for gui configuration.
+DynamicGui currently support `yaml <https://learnxinyminutes.com/docs/yaml/>`_, `json <https://learnxinyminutes.com/docs/json/>`_, `xml <https://learnxinyminutes.com/docs/xml/>`_ and `hocon <https://github.com/lightbend/config#using-hocon-the-json-superset>`_ for gui configuration.
 To write guis for DynamicGui you will need to know one the listed languages.
 
 .. toctree::
